@@ -10,5 +10,6 @@ function nowServing(line){
 
 function currentLine(line){
   var s="The line is currently:"
-  for (var i=0; i<line.length; i++){s+line[i]}
+  for (var i=0; i<line.length; i++){s=s+line[i]}
+  return s
 }
